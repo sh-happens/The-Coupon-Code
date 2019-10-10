@@ -1,0 +1,15 @@
+{
+  "name": "thecouponcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "theCouponCode.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
