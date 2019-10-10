@@ -5,5 +5,8 @@
 // Your function should return true or false
 
 exports.checkCoupon = (enteredCode, correctCode, currentDate, expirationDate) => {
-
+  if (enteredCode === correctCode) {
+    if(Date.parse(currentDate)<=Date.parse(expirationDate)) return true;
+  }
+  return false;
 }
